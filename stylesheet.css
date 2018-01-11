@@ -1,0 +1,229 @@
+@font-face {
+font-family: ArchivoNarrow-Medium;
+src: url(ArchivoNarrow-Medium.ttf)
+}
+
+body {
+ margin: 0;
+ background-color:black;
+}
+.menu {
+	z-index:1;
+	position:fixed;
+	top:160px;
+	left:380px;
+}
+.menu a {
+    display:inline;
+    color:white;
+    font-family:arial;
+    text-decoration:none;
+	padding-right:20px;
+	padding-left:2px;
+	font-size:25px;
+}
+.menu a:hover {
+    background-color:cyan;
+	border-radius:20px;
+	
+}
+
+p {color:blue;}
+h2 {color:white;}
+p {color:blue;}
+
+#ScrollText{
+color:white;
+}
+
+
+
+/*________________________________________
+Paralax effect*/
+
+.parallax {
+    /* Afbeelding gebruikt */
+    background-image: url(./Media/IndexBG01.jpg);
+
+    /* specifieke hoogte */
+    min-height: 500px; 
+
+    /* Het daadwerkelijke effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*________________________________________*/
+
+.scrollTitleText
+{
+	Color:black;
+	
+}
+.titleBlocks{
+position:absolute;
+z-index:-1;
+
+}
+
+.videoboxtext
+{
+margin: 0;
+z-index:1;
+color:white;
+font-family:ArchivoNarrow-Medium;
+font-size:25px;
+}
+
+.videobox
+{
+background-image: url(./Media/IndexBG02.png);
+background-repeat: round;
+height:auto;	
+}
+
+#video1
+{
+position:relative;
+top:0px;
+left:-50px;
+width:50%;
+height:50%;
+z-index:0;
+}
+
+.board
+{
+	z-index:2;
+	top:9.5%;
+	left:20%;
+	position:fixed
+	
+}
+
+.IndexGif {
+	top:-92px;
+	position:absolute;
+	left:0%;
+	width:1152px;
+}
+
+.scrollTitle{
+	position:absolute;
+	top:-2px;
+	width:1152px;
+	font-size:25px;
+}
+
+.mariogif1{
+position:absolute;	
+left:830%;
+}
+
+#indexInleidingText
+{
+	margin: 0px;
+	width: 42.4em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+	color:white;
+	font-size:20px;
+}
+#indexSoortenGames
+{
+	position:relative;
+	margin: 0px;
+	background-image: url(./Media/hoi4.png);
+	width:auto;
+	height:auto;
+	color:whitesmoke;
+	font-size: 35px;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+	background-repeat: round;
+}
+
+#VMV_text
+{
+margin:0;
+position:relative; 
+font-size: 35px;
+text-align:center;
+color:white;
+padding:200px 100px;
+word-wrap: break-word;
+background-image: url(./Media/subnautica.jpg);
+background-repeat: round;
+height:auto;
+}
+
+#OUG_text{
+	padding:200px 100px;
+	word-wrap: break-word;
+	font-size: 35px;
+	text-align:center;
+	color:white;
+	background-image: url(./Media/OUG.jpg), url(./Media/OUG_2.jpg);
+	margin:0;
+	position:relative;
+	height:auto;
+	background-repeat: no-repeat, round;
+}
+
+#NIG_text{
+	padding:200px 300px;
+	word-wrap: break-word;
+	font-size: 35px;
+	text-align:center;
+	color:white;
+	margin:0;
+	background-image: url(./Media/NIG.jpg);
+	position:relative;
+	height:auto;;
+	background-repeat: round;
+}
+
+#GAP_text{
+	padding:200px 100px;
+	word-wrap: break-word;
+	font-size: 35px;
+	text-align:center;
+	color:white;
+	margin:0;
+	background-image: url(./Media/GAP.jpeg);
+	position:relative;
+	height:auto;
+	background-repeat: round;
+}
+
+#video2
+{
+position:relative;
+top:-489px;
+left:50%;
+width:50%;
+height:50%;
+z-index:0;
+}
+
+.NIG_Table{
+width:1200px;
+height:900px;
+}
+
+.NIG_Table, td{
+padding-right:50px;
+}
+
+.NIG_Table, tr, th, td{
+border: 1px solid white;
+color:white;
+}
+
+#contact{
+background-color:black;
+display inline;
+}
+
